@@ -1,0 +1,79 @@
+@font-face {
+  font-family:'Roboto';
+  src: url(../fonts/Roboto-Black.ttf);
+}
+
+body h1, body h3, body h2, body h4{
+  font-family: "Roboto";
+}
+body p {
+  font-size: 17px;
+}
+
+
+h3{
+  color: black;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 3em;
+  margin: 0px;
+}
+
+
+h2{
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 2em;
+
+}
+
+h4{
+  padding-left: 50px;
+  font-size: 25px;
+}                 
+
+section {
+  background-color: white;
+  mix-blend-mode: screen;
+  position: absolute;
+  left: 30%;
+  top: 28%;
+  mix-blend-mode: screen;
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 500;
+  height: 60px;
+}
+
+.container01 {
+  background-image: url(../img/fondo\ \(1\).jpg);
+  height: 400px;
+}
+
+.container02 {
+  background-image: url(../img/foto.png);
+  width: 600px;
+  height: 750px;
+}
+.container02 .container03 {
+  width: 500px;
+  height: 750px;
+  position: relative;
+  mix-blend-mode: screen;
+}
+.container02 .container03 .link01 {
+  padding-left: 50px;
+  color: transparent;
+}
+
+.container02:hover .container03 {
+  mix-blend-mode: normal;
+  background-color: pink;
+}
+.container02:hover .container03 .link01 {
+  color: blue;
+}
+
+/*# sourceMappingURL=output.css.map */

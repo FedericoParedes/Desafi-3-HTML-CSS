@@ -1,0 +1,63 @@
+        
+body{
+    
+h1, h3{
+    font-family: 'Roboto';
+}
+
+
+p{
+    font-size: 17px;
+  }
+}
+
+section{
+    background-color: white;
+    mix-blend-mode: screen;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    mix-blend-mode: screen;
+    border-radius: 10px;
+    padding: 10px 5px;
+  }
+
+.container01{
+    background-image: url(../img/fondo\ \(1\).jpg);
+    height: 400px;
+ 
+}
+  
+.container02{
+    background-image: url(../img/foto.png);
+    width: 600px;
+    height: 750px;
+
+ 
+.container03{
+    width: 500px;
+    height: 750px;
+    position: relative;
+    mix-blend-mode: screen;
+
+    .link01{
+        padding-left: 50px;
+        color: transparent;
+    }
+  }
+
+}
+
+.container02:hover{
+
+  .container03{
+    mix-blend-mode: normal;
+    background-color: pink;
+
+    .link01{
+        color: blue;
+    }
+  }
+
+
+}
